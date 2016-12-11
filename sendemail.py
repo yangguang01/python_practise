@@ -41,7 +41,6 @@ def main():
     当然，这封邮件的最重要的目的是实现了通过python发邮件。使用了SMTP功能，神奇的是这么发邮件不用翻墙。
 
     '''
-
     # 将正文放到邮件结构里
     message.attach(MIMEText(mail_body, 'plain', 'utf-8'))
 
