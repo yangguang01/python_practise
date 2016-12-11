@@ -42,6 +42,7 @@ def main():
 
     '''
 
+    # 将正文放到邮件结构里
     message.attach(MIMEText(mail_body, 'plain', 'utf-8'))
 
     # 附件路径
